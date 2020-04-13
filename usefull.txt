@@ -1,0 +1,5 @@
+use flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+/*Every direct descendent of an item have left*/
+.left > * {
