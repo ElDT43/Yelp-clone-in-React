@@ -14,7 +14,7 @@ export function SearchResult() {
             <div className={styles['contact-info']}>
                 <p>+4912345753</p>
                 <p>Example Street 5</p>
-                <p>123456 Berlin</p>
+                <p>12345 Berlin</p>
             </div>
         </div>
     )
