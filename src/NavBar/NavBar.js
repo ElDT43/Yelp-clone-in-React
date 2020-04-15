@@ -2,11 +2,12 @@ import React from 'react';
 import styles from './NavBar.module.css';
 import logo from '../assets/logo.png';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { Link } from 'react-router-dom';
 
 export function NavBar(){
     return(
         <div className={styles['nav-bar']}>
-            <img src={logo} className={styles.logo} alt='belp logo' />
+            <Link to="/"> <img src={logo} className={styles.logo} alt='belp logo' /></Link>
             <SearchBar small/>
 
             <button className={`button ${styles['nav-button']}`}>Sign In</button>
