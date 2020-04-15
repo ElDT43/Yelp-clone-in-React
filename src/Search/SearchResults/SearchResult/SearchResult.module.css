@@ -9,3 +9,10 @@
     margin-right: 1rem;
 }
 
+.business-info{
+    min-width: 400px;
+}
+
+.contact-info p {
+    font-size: .85rem;
+}
